@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BloomWake</string>
+    <string name="app_tagline">Cycle Sync Alarm</string>
+    <string name="medical_disclaimer">For wellness only. Not medical advice. Not for use as contraception.</string>
+    <string name="privacy_note">All data stays on your device. Never shared. Never sold.</string>
+</resources>

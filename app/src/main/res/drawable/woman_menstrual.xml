@@ -1,0 +1,95 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="200dp"
+    android:viewportWidth="160"
+    android:viewportHeight="200">
+
+    <!-- Soft red glow -->
+    <path android:fillColor="#15FF5252" android:pathData="M80,100 m-70,0 a70,70 0 1,0 140,0 a70,70 0 1,0 -140,0"/>
+
+    <!-- Cozy blanket/wrap -->
+    <path android:fillColor="#C62828"
+        android:pathData="M35,125 Q55,108 80,108 Q105,108 125,125 L130,175 L30,175 Z"/>
+    <path android:fillColor="#E53935"
+        android:pathData="M40,130 Q60,118 80,118 Q100,118 120,130 L125,175 L35,175 Z"/>
+    <!-- Blanket fold details -->
+    <path android:strokeColor="#B71C1C" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M55,140 Q80,135 105,140"/>
+    <path android:strokeColor="#B71C1C" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M50,155 Q80,150 110,155"/>
+
+    <!-- Neck -->
+    <path android:fillColor="#FFAB91" android:pathData="M73,96 L87,96 L89,116 L71,116 Z"/>
+
+    <!-- Arms wrapped in blanket -->
+    <path android:fillColor="#C62828"
+        android:pathData="M35,130 Q22,140 20,160 Q22,170 32,168 Q40,165 38,152 Q38,140 45,132 Z"/>
+    <path android:fillColor="#C62828"
+        android:pathData="M125,130 Q138,140 140,160 Q138,170 128,168 Q120,165 122,152 Q122,140 115,132 Z"/>
+
+    <!-- Hands holding hot water bottle -->
+    <path android:fillColor="#FFAB91" android:pathData="M25,160 Q20,163 20,168 Q24,174 30,170 Q32,165 28,161 Z"/>
+    <path android:fillColor="#FFAB91" android:pathData="M135,160 Q140,163 140,168 Q136,174 130,170 Q128,165 132,161 Z"/>
+    <!-- Hot water bottle -->
+    <path android:fillColor="#EF9A9A" android:pathData="M65,150 Q80,144 95,150 L98,172 L62,172 Z"/>
+    <path android:fillColor="#E57373" android:pathData="M72,148 L88,148 L88,154 L72,154 Z"/>
+    <!-- Bottle cap -->
+    <path android:fillColor="#C62828" android:pathData="M76,145 L84,145 L84,150 L76,150 Z"/>
+    <!-- Heart on bottle -->
+    <path android:fillColor="#C62828" android:pathData="M76,160 Q80,155 84,160 Q88,165 80,170 Q72,165 76,160 Z"/>
+
+    <!-- Face -->
+    <path android:fillColor="#FFAB91"
+        android:pathData="M55,46 Q55,20 80,18 Q105,20 105,46 L105,80 Q105,100 80,102 Q55,100 55,80 Z"/>
+
+    <!-- Hair loose down comfy -->
+    <path android:fillColor="#6D4C41"
+        android:pathData="M55,46 Q52,28 58,14 Q67,3 80,3 Q93,3 102,14 Q108,28 105,46 Q98,22 80,20 Q62,22 55,46 Z"/>
+    <path android:fillColor="#6D4C41"
+        android:pathData="M55,58 Q45,70 43,90 Q45,108 54,104 Q55,88 60,72 Z"/>
+    <path android:fillColor="#6D4C41"
+        android:pathData="M105,58 Q115,70 117,90 Q115,108 106,104 Q105,88 100,72 Z"/>
+
+    <!-- Sleepy half-closed eyes -->
+    <!-- Eye whites -->
+    <path android:fillColor="#FFFFFF" android:pathData="M62,60 Q69,54 76,60 L76,66 Q69,70 62,66 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M84,60 Q91,54 98,60 L98,66 Q91,70 84,66 Z"/>
+    <!-- Irises -->
+    <path android:fillColor="#5D4037" android:pathData="M65,63 Q69,59.5 73,63 Q73,66.5 69,66.5 Q65,66.5 65,63 Z"/>
+    <path android:fillColor="#5D4037" android:pathData="M87,63 Q91,59.5 95,63 Q95,66.5 91,66.5 Q87,66.5 87,63 Z"/>
+    <!-- Half-closed lids -->
+    <path android:fillColor="#FFAB91" android:pathData="M62,60 Q69,56 76,60 L76,62 Q69,58 62,62 Z"/>
+    <path android:fillColor="#FFAB91" android:pathData="M84,60 Q91,56 98,60 L98,62 Q91,58 84,62 Z"/>
+
+    <!-- Eyebrows soft down -->
+    <path android:strokeColor="#5D4037" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M63,53 Q69,51 75,53"/>
+    <path android:strokeColor="#5D4037" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M85,53 Q91,51 97,53"/>
+
+    <!-- Nose -->
+    <path android:strokeColor="#D4956A" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M78,71 Q80,75 82,71"/>
+
+    <!-- Soft gentle smile -->
+    <path android:strokeColor="#C0392B" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M72,83 Q80,89 88,83"/>
+    <path android:fillColor="#EF9A9A" android:pathData="M72,83 Q80,88 88,83 Q80,86 72,83 Z"/>
+
+    <!-- Blush soft pink -->
+    <path android:fillColor="#30FF6B9C" android:pathData="M54,75 Q63,70 72,75 Q72,80 63,80 Q54,80 54,75 Z"/>
+    <path android:fillColor="#30FF6B9C" android:pathData="M88,75 Q97,70 106,75 Q106,80 97,80 Q88,80 88,75 Z"/>
+
+    <!-- ZZZ sleep dots -->
+    <path android:fillColor="#EF9A9A" android:pathData="M118,55 L128,55 L118,62 L130,62"/>
+    <path android:fillColor="#EF9A9A" android:pathData="M122,45 L129,45 L122,51 L130,51"/>
+
+    <!-- Moon -->
+    <path android:fillColor="#FFE082"
+        android:pathData="M18,55 Q22,46 32,48 Q25,52 27,62 Q19,59 18,55 Z"/>
+
+    <!-- Stars -->
+    <path android:fillColor="#FFF9C4" android:pathData="M135,40 L136.5,35 L138,40 L133,37 L140,37 Z"/>
+    <path android:fillColor="#FFF9C4" android:pathData="M20,100 L21,97 L22,100 L19,98 L23,98 Z"/>
+
+</vector>

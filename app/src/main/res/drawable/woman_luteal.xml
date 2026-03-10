@@ -1,0 +1,96 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="200dp"
+    android:viewportWidth="160"
+    android:viewportHeight="200">
+
+    <!-- Warm cozy glow -->
+    <path android:fillColor="#18FF8F00" android:pathData="M80,100 m-70,0 a70,70 0 1,0 140,0 a70,70 0 1,0 -140,0"/>
+
+    <!-- Cozy sweater -->
+    <path android:fillColor="#8B4513"
+        android:pathData="M44,115 Q58,106 80,106 Q102,106 116,115 L122,175 L38,175 Z"/>
+    <!-- Sweater texture lines -->
+    <path android:strokeColor="#A0522D" android:strokeWidth="1.5" android:fillColor="#00000000"
+        android:pathData="M50,125 Q80,120 110,125"/>
+    <path android:strokeColor="#A0522D" android:strokeWidth="1.5" android:fillColor="#00000000"
+        android:pathData="M47,138 Q80,133 113,138"/>
+    <path android:strokeColor="#A0522D" android:strokeWidth="1.5" android:fillColor="#00000000"
+        android:pathData="M45,151 Q80,146 115,151"/>
+
+    <!-- Neck -->
+    <path android:fillColor="#F4C2A1" android:pathData="M73,94 L87,94 L89,114 L71,114 Z"/>
+
+    <!-- Arms holding mug -->
+    <path android:fillColor="#F4C2A1"
+        android:pathData="M44,115 Q28,122 24,148 Q22,158 30,160 Q38,162 41,148 Q44,135 52,126 Z"/>
+    <path android:fillColor="#F4C2A1"
+        android:pathData="M116,115 Q132,122 136,148 Q138,158 130,160 Q122,162 119,148 Q116,135 108,126 Z"/>
+
+    <!-- Tea mug -->
+    <path android:fillColor="#D2691E" android:pathData="M68,148 L92,148 L88,175 L72,175 Z"/>
+    <path android:fillColor="#A0522D" android:pathData="M66,145 L94,145 L94,150 L66,150 Z"/>
+    <!-- Mug handle -->
+    <path android:strokeColor="#A0522D" android:strokeWidth="3" android:fillColor="#00000000"
+        android:pathData="M92,150 Q100,152 100,160 Q100,168 92,168"/>
+    <!-- Steam -->
+    <path android:strokeColor="#FFCCBC" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M74,142 Q72,135 74,128"/>
+    <path android:strokeColor="#FFCCBC" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M80,140 Q78,132 80,125"/>
+    <path android:strokeColor="#FFCCBC" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M86,142 Q84,135 86,128"/>
+
+    <!-- Face -->
+    <path android:fillColor="#F4C2A1"
+        android:pathData="M54,44 Q54,18 80,16 Q106,18 106,44 L106,80 Q106,100 80,102 Q54,100 54,80 Z"/>
+
+    <!-- Hair - loose wavy down -->
+    <path android:fillColor="#8B4513"
+        android:pathData="M54,44 Q50,25 56,12 Q65,2 80,2 Q95,2 104,12 Q110,25 106,44 Q100,20 80,18 Q60,20 54,44 Z"/>
+    <path android:fillColor="#8B4513"
+        android:pathData="M54,55 Q44,65 42,85 Q44,100 52,96 Q54,80 58,68 Z"/>
+    <path android:fillColor="#8B4513"
+        android:pathData="M106,55 Q116,65 118,85 Q116,100 108,96 Q106,80 102,68 Z"/>
+    <!-- Hair waves -->
+    <path android:fillColor="#A0522D"
+        android:pathData="M54,60 Q48,72 50,84 Q52,92 55,88 Q54,76 58,66 Z"/>
+
+    <!-- Cozy headband -->
+    <path android:fillColor="#CD853F"
+        android:pathData="M56,30 Q80,22 104,30 Q104,38 80,40 Q56,38 56,30 Z"/>
+
+    <!-- Eyes - soft, slightly tired -->
+    <path android:fillColor="#FFFFFF" android:pathData="M62,57 Q69,51 76,57 Q76,63 69,63 Q62,63 62,57 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M84,57 Q91,51 98,57 Q98,63 91,63 Q84,63 84,57 Z"/>
+    <path android:fillColor="#5D4037" android:pathData="M64.5,58 Q69,53.5 73.5,58 Q73.5,62.5 69,62.5 Q64.5,62.5 64.5,58 Z"/>
+    <path android:fillColor="#5D4037" android:pathData="M86.5,58 Q91,53.5 95.5,58 Q95.5,62.5 91,62.5 Q86.5,62.5 86.5,58 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M69.5,56 Q71,54.5 72.5,56 Q72.5,57.5 71,57.5 Q69.5,57.5 69.5,56 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M91.5,56 Q93,54.5 94.5,56 Q94.5,57.5 93,57.5 Q91.5,57.5 91.5,56 Z"/>
+
+    <!-- Eyebrows relaxed -->
+    <path android:strokeColor="#5D4037" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M63,50 Q69,47 75,50"/>
+    <path android:strokeColor="#5D4037" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M85,50 Q91,47 97,50"/>
+
+    <!-- Nose -->
+    <path android:strokeColor="#D4956A" android:strokeWidth="1.5" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M78,69 Q80,73 82,69"/>
+
+    <!-- Gentle smile -->
+    <path android:strokeColor="#C0392B" android:strokeWidth="2.5" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M70,82 Q80,90 90,82"/>
+    <path android:fillColor="#E57373" android:pathData="M70,82 Q80,89 90,82 Q80,86 70,82 Z"/>
+
+    <!-- Blush soft -->
+    <path android:fillColor="#25FF6B6B" android:pathData="M53,74 Q62,69 71,74 Q71,79 62,79 Q53,79 53,74 Z"/>
+    <path android:fillColor="#25FF6B6B" android:pathData="M89,74 Q98,69 107,74 Q107,79 98,79 Q89,79 89,74 Z"/>
+
+    <!-- Moon and stars - luteal is night energy -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M18,50 Q22,42 30,44 Q24,48 26,56 Q20,54 18,50 Z"/>
+    <path android:fillColor="#FFF9C4" android:pathData="M138,45 L139.5,40 L141,45 L136,42 L143,42 Z"/>
+    <path android:fillColor="#FFF9C4" android:pathData="M22,120 L23,116 L24,120 L20,118 L26,118 Z"/>
+
+</vector>
