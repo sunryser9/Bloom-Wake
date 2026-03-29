@@ -26,8 +26,17 @@ jobs:
           gradle wrapper --gradle-version 8.9 --distribution-type bin
           chmod +x ./gradlew
 
+      - name: Decode Keystore
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > app/bloomwake-release.jks
+
       - name: Build Release AAB
         run: ./gradlew bundleRelease --stacktrace
+        env:
+          KEYSTORE_PATH: bloomwake-release.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
 
       - name: Upload AAB
         uses: actions/upload-artifact@v4
