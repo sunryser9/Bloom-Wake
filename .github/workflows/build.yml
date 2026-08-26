@@ -1,35 +1,32 @@
 name: Build BloomWake Release AAB
-
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: 'gradle'
-
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-
       - name: Generate Gradle Wrapper
         run: |
           gradle wrapper --gradle-version 8.11.1 --distribution-type bin
           chmod +x ./gradlew
-
       - name: Decode Keystore
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > app/bloomwake-release.jks
-
       - name: Build Release AAB
         run: ./gradlew bundleRelease --stacktrace
         env:
@@ -37,9 +34,11 @@ jobs:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-
-      - name: Upload AAB
-        uses: actions/upload-artifact@v4
+      - name: Create Release and Upload AAB
+        uses: softprops/action-gh-release@v2
         with:
-          name: BloomWake-release
-          path: app/build/outputs/bundle/release/app-release.aab
+          tag_name: build-${{ github.run_number }}
+          name: Build ${{ github.run_number }}
+          files: app/build/outputs/bundle/release/app-release.aab
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
